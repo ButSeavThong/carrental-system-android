@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">fazonapp</string>
+
+    <!-- Authentication -->
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="name">Full Name</string>
+    <string name="phone">Phone Number</string>
+    <string name="nationality">Nationality</string>
+    <string name="dont_have_account">Don\'t have an account?</string>
+    <string name="already_have_account">Already have an account?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_in">Sign In</string>
+    <string name="logout">Logout</string>
+
+    <!-- Validation Messages -->
+    <string name="error_empty_email">Email is required</string>
+    <string name="error_invalid_email">Invalid email format</string>
+    <string name="error_empty_password">Password is required</string>
+    <string name="error_short_password">Password must be at least 6 characters</string>
+    <string name="error_empty_name">Name is required</string>
+    <string name="error_empty_phone">Phone is required</string>
+    <string name="error_empty_nationality">Nationality is required</string>
+
+    <!-- Messages -->
+    <string name="login_success">Login successful!</string>
+    <string name="register_success">Registration successful!</string>
+    <string name="login_failed">Login failed. Please try again.</string>
+    <string name="register_failed">Registration failed. Please try again.</string>
+
+    <!-- Nationality Options -->
+    <string name="cambodian">Cambodian</string>
+    <string name="foreigner">Foreigner</string>
+
+    <!-- Navigation -->
+    <string name="home">Home</string>
+    <string name="bookings">Bookings</string>
+    <string name="profile">Profile</string>
+    <string name="dashboard">Dashboard</string>
+
+    <!-- Car -->
+    <string name="available">Available</string>
+    <string name="unavailable">Unavailable</string>
+    <string name="price_per_day">Price per day</string>
+    <string name="book_now">Book Now</string>
+
+    <!-- Booking -->
+    <string name="start_date">Start Date</string>
+    <string name="end_date">End Date</string>
+    <string name="total_price">Total Price</string>
+    <string name="status">Status</string>
+    <string name="pending">Pending</string>
+    <string name="approved">Approved</string>
+    <string name="rejected">Rejected</string>
+
+    <!-- Common -->
+    <string name="loading">Loading…</string>
+    <string name="error">Error</string>
+    <string name="success">Success</string>
+    <string name="cancel">Cancel</string>
+    <string name="confirm">Confirm</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="save">Save</string>
+</resources>

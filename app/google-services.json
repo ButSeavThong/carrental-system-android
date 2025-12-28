@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "906745124174",
+    "firebase_url": "https://drivex-24f9d-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "drivex-24f9d",
+    "storage_bucket": "drivex-24f9d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:906745124174:android:fbeeb5949600d23008fa1f",
+        "android_client_info": {
+          "package_name": "com.example.drivex"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMxYhvUHRa0aMRBrICvAgbH-1s3OLGa-0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:906745124174:android:0fbfbdaf549e781e08fa1f",
+        "android_client_info": {
+          "package_name": "com.rentalcar.kh"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMxYhvUHRa0aMRBrICvAgbH-1s3OLGa-0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
