@@ -6,13 +6,18 @@
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
+    <!-- Optional: For image selection from gallery -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.FazonApp">
+        android:theme="@style/Theme.FazonApp"
+        android:usesCleartextTraffic="true"> <!-- For Firebase -->
 
         <!-- Login Activity (Main Launcher) -->
         <activity
@@ -30,11 +35,43 @@
             android:name=".ui.auth.RegisterActivity"
             android:screenOrientation="portrait" />
 
-        <!-- Customer Activities (Will add in Phase 8) -->
-        <activity android:name=".ui.customer.HomeActivity" />
+        <!-- Customer Activities -->
+        <activity
+            android:name=".ui.customer.HomeActivity"
+            android:screenOrientation="portrait" />
 
-        <!-- Admin Activities (Will add in Phase 9) -->
-        <activity android:name=".ui.admin.AdminDashboardActivity" />
+        <activity
+            android:name=".ui.customer.CarDetailActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".ui.customer.BookingActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".ui.customer.MyBookingsActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".ui.customer.ProfileActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- Admin Activities -->
+        <activity
+            android:name=".ui.admin.AdminDashboardActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".ui.admin.ManageCarActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".ui.admin.ManageBookingActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".ui.admin.ManageUserActivity"
+            android:screenOrientation="portrait" />
 
     </application>
 

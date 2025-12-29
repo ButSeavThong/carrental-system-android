@@ -64,4 +64,24 @@
     <string name="delete">Delete</string>
     <string name="edit">Edit</string>
     <string name="save">Save</string>
+
+    <!-- Car Types -->
+    <string-array name="car_types">
+        <item>Sedan</item>
+        <item>SUV</item>
+        <item>Truck</item>
+        <item>Van</item>
+        <item>Coupe</item>
+        <item>Hatchback</item>
+    </string-array>
+    <!-- Add these missing strings -->
+    <string name="my_bookings">My Bookings</string>
+    <string name="refresh">Refresh</string>
+
+
+    <!-- If you also need these for admin menu -->
+    <string name="manage_cars">Manage Cars</string>
+    <string name="manage_bookings">Manage Bookings</string>
+    <string name="manage_users">Manage Users</string>
+
 </resources>

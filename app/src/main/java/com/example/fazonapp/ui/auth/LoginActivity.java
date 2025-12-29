@@ -17,7 +17,6 @@ import com.example.fazonapp.utils.Constants;
 import com.google.android.material.textfield.TextInputEditText;
 
 public class LoginActivity extends AppCompatActivity {
-
     private TextInputEditText etEmail, etPassword;
     private Button btnLogin;
     private TextView tvRegister;

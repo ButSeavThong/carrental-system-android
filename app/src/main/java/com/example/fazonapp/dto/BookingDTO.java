@@ -5,10 +5,11 @@ import com.example.fazonapp.utils.DateUtils;
 
 public class BookingDTO {
     private String id;
+    private String carId;  // Add this line
     private String carName;
     private String carBrand;
-    private String startDate; // Formatted date string
-    private String endDate; // Formatted date string
+    private String startDate;
+    private String endDate;
     private double totalPrice;
     private String status;
     private long numberOfDays;
@@ -18,6 +19,7 @@ public class BookingDTO {
     // Constructor from Booking model
     public BookingDTO(Booking booking) {
         this.id = booking.getId();
+        this.carId = booking.getCarId();  // Add this line
         this.carName = booking.getCarName();
         this.startDate = DateUtils.formatDate(booking.getStartDate());
         this.endDate = DateUtils.formatDate(booking.getEndDate());
@@ -27,12 +29,14 @@ public class BookingDTO {
                 booking.getStartDate(),
                 booking.getEndDate()
         );
-        // Notice: We DON'T include userId and carId for security
     }
 
     // Getters and Setters
     public String getId() { return id; }
     public void setId(String id) { this.id = id; }
+
+    public String getCarId() { return carId; }  // Add this getter
+    public void setCarId(String carId) { this.carId = carId; }  // Add this setter
 
     public String getCarName() { return carName; }
     public void setCarName(String carName) { this.carName = carName; }
